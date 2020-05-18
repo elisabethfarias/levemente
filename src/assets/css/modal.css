@@ -1,0 +1,39 @@
+/* o-exit-modal component */
+.o-exit-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  background-color: #000;
+  align-content: center;
+  display: none;
+}
+
+.o-exit-modal--visible {
+  display: grid;
+  animation: exit-modal 0.3s;
+}
+
+.o-exit-modal__wrapper {
+  background-color: var(--color-surface);
+  align-content: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.625rem;
+}
+
+.o-exit-modal__header {
+  justify-content: end;
+  padding: calc(var(--space-grid) * 2);
+}
+
+.o-exit-modal__body {
+  padding: 0 var(--space) var(--space);
+}
+
+/* o-last-home component */
+.o-last-home {
+  background-color: var(--color-primary);
+}
