@@ -74,3 +74,9 @@
     color: #FFB852;
 
 }
+
+@media (max-width: 767px) {
+    .bg-01 {
+        height: 650px;
+    }
+}
