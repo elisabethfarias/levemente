@@ -4,6 +4,17 @@
     
 }
 
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
 #menu ul {
     padding: 10px;
     margin: 0px;
@@ -73,6 +84,53 @@
     line-height: 30px;
     color: #FFB852;
 
+}
+
+.h2_encontro {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #89AAD5;
+
+}
+
+.h2_encontro_1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffbc5c;
+}
+
+p.texto-02 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5A5A5A;
+}
+
+.h1_sobre {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #89AAD5;
+}
+
+p.p_footer {
+    text-decoration: none;
+    color: #5A5A5A;
 }
 
 @media (max-width: 767px) {
