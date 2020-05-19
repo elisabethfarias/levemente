@@ -1,0 +1,16 @@
+.button-form-submit {
+  background: #89AAD5;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.card { 
+  background: #F5F5F5;
+  border-radius: 5px;
+}
