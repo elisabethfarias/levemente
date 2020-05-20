@@ -98,6 +98,10 @@
     color: #ffbc5c;
 }
 
+.texto-02 {
+    padding-left: 25px;
+}
+
 p.texto-02 {
     font-family: Poppins;
     font-style: normal;
@@ -120,6 +124,10 @@ p.texto-02 {
 p.p_footer {
     text-decoration: none;
     color: #5A5A5A;
+}
+
+.tira_padding {
+    padding: 0 0 0 0;
 }
 
 @media (max-width: 767px) {
