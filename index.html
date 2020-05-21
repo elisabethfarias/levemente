@@ -18,6 +18,8 @@
     rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
     <title>Levemente</title>
+
+
   </head>
 
   <body>
@@ -79,13 +81,20 @@
 
     <section class="container-fluid">
       <div class="row">
-        <div class="col-sm-8 offset-sm-2 text-center">
+        <div class="col-sm-12 text-center">
           <h1 class="saudeMental_h1 mt-4">ASSISTA AO MEETUP</h1>
-
           <h2 class="saudeMental_h2 mb-4">UMA ABORDAGEM VOLTADA PARA A QUARENTENA</h2>
-
-          <iframe width="853" height="480" src="https://www.youtube.com/embed/T4K6vPowFUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
+        <div class="col-sm-12">
+           <!-- 16:9 aspect ratio -->
+           <div class="embed-responsive embed-responsive-16by9 p-5">
+             <!-- <iframe class="embed-responsive-item" src="..."></iframe> -->
+             <iframe class="embed-responsive-item" width="853" height="480" src="https://www.youtube.com/embed/T4K6vPowFUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+        </div>
+       
+
       </div>
     </section>
 
@@ -108,7 +117,8 @@
           </div>
   
           <div class="col-sm-4">
-            <img class="image-fluid" src="./src/assets/images/image-sobre.png" alt="Imagem sobre">
+            <img class="image-fluid" style="max-width: 100%; height: auto;" src="./src/assets/images/image-sobre.png"
+              alt="Imagem sobre">
           </div>
         </div>
     </section>
