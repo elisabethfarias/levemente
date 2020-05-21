@@ -20,12 +20,22 @@ function countdown() {
   m = (m < 10) ? "0" + m : m
   s = (s < 10) ? "0" + s : s
 
-  document.getElementById("days").textContent = d
-  document.getElementById("days").innerText = d
 
-  document.getElementById("hours").textContent = h
-  document.getElementById("minutes").textContent = m
-  document.getElementById("seconds").textContent = s
+  // código comentado, mas funcional
+  // document.getElementById("days").textContent = d
+  // document.getElementById("days").innerText = d
+
+  // document.getElementById("hours").textContent = h
+  // document.getElementById("minutes").textContent = m
+  // document.getElementById("seconds").textContent = s
+
+
+  document.getElementById("days").textContent = 0
+  document.getElementById("days").innerText = 0
+
+  document.getElementById("hours").textContent = 0
+  document.getElementById("minutes").textContent = 0
+  document.getElementById("seconds").textContent = 0
 
   setTimeout(countdown, 1000)
 
