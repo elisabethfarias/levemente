@@ -1,6 +1,6 @@
 .bg-01 {
     background-color: #89aad5;
-    height: 1000px;
+    /* height: 1000px; */
     
 }
 
@@ -134,4 +134,9 @@ p.p_footer {
     .bg-01 {
         height: 650px;
     }
+
+    .o-footer {
+        height: 280px;
+    }
+
 }
